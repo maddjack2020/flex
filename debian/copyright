@@ -1,0 +1,1256 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: flex
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .indent.pro
+           ABOUT-NLS
+           AUTHORS
+           NEWS
+           ONEWS
+           THANKS
+           doc/Makefile.am
+           doc/flex.1
+           doc/stamp-vti
+           doc/version.texi
+           examples/README
+           examples/debflex.awk
+           examples/fastwc/README
+           examples/fastwc/mywc.c
+           examples/fastwc/wc1.l
+           examples/fastwc/wc2.l
+           examples/fastwc/wc3.l
+           examples/fastwc/wc4.l
+           examples/fastwc/wc5.l
+           examples/manual/README
+           examples/manual/cat.lex
+           examples/manual/dates.lex
+           examples/manual/datetest.dat
+           examples/manual/eof_rules.lex
+           examples/manual/eof_test01.txt
+           examples/manual/eof_test02.txt
+           examples/manual/eof_test03.txt
+           examples/manual/expr.lex
+           examples/manual/expr.y
+           examples/manual/front.lex
+           examples/manual/front.y
+           examples/manual/j2t.lex
+           examples/manual/myname.lex
+           examples/manual/myname.txt
+           examples/manual/myname2.lex
+           examples/manual/numbers.lex
+           examples/manual/pas_include.lex
+           examples/manual/pascal.lex
+           examples/manual/reject.lex
+           examples/manual/replace.lex
+           examples/manual/string1.lex
+           examples/manual/string2.lex
+           examples/manual/strtest.dat
+           examples/manual/unput.lex
+           examples/manual/user_act.lex
+           examples/manual/userinit.lex
+           examples/manual/wc.lex
+           examples/manual/yymore.lex
+           examples/manual/yymore2.lex
+           examples/manual/yymoretest.dat
+           examples/testxxLexer.l
+           lib/malloc.c
+           lib/realloc.c
+           po/LINGUAS
+           po/Makevars
+           po/POTFILES.in
+           po/Rules-quot
+           po/boldquot.sed
+           po/ca.gmo
+           po/da.gmo
+           po/de.gmo
+           po/en@boldquot.gmo
+           po/en@boldquot.header
+           po/en@boldquot.po
+           po/en@quot.gmo
+           po/en@quot.header
+           po/en@quot.po
+           po/eo.gmo
+           po/es.gmo
+           po/fi.gmo
+           po/flex.pot
+           po/fr.gmo
+           po/ga.gmo
+           po/hr.gmo
+           po/insert-header.sin
+           po/ko.gmo
+           po/nl.gmo
+           po/pl.gmo
+           po/pt_BR.gmo
+           po/quot.sed
+           po/remove-potcdate.sin
+           po/ro.gmo
+           po/ru.gmo
+           po/sr.gmo
+           po/stamp-po
+           po/sv.gmo
+           po/tr.gmo
+           po/vi.gmo
+           po/zh_CN.gmo
+           po/zh_TW.gmo
+           src/Makefile.am
+           src/config.h.in
+           src/flex.skl
+           src/flexint.h
+           src/skel.c
+           src/tables_shared.c
+           src/tables_shared.h
+           src/version.h
+           tests/README
+           tests/alloc_extra.txt
+           tests/array_nr.txt
+           tests/array_r.txt
+           tests/basic_nr.txt
+           tests/basic_r.txt
+           tests/bison_nr.txt
+           tests/bison_yylloc.txt
+           tests/c_cxx_nr.txt
+           tests/c_cxx_r.txt
+           tests/ccl.txt
+           tests/cxx_basic.txt
+           tests/cxx_multiple_scanners.txt
+           tests/cxx_restart.txt
+           tests/cxx_yywrap.txt
+           tests/debug_nr.txt
+           tests/debug_r.txt
+           tests/extended.txt
+           tests/header_nr.txt
+           tests/header_r.txt
+           tests/include_by_buffer.direct.txt
+           tests/include_by_buffer.direct_2.txt
+           tests/include_by_buffer.direct_3.txt
+           tests/include_by_push.direct.txt
+           tests/include_by_push.direct_2.txt
+           tests/include_by_push.direct_3.txt
+           tests/include_by_reentrant.direct.txt
+           tests/include_by_reentrant.direct_2.txt
+           tests/include_by_reentrant.direct_3.txt
+           tests/lineno_nr.one.txt
+           tests/lineno_r.one.txt
+           tests/lineno_trailing.one.txt
+           tests/mem_nr.txt
+           tests/mem_r.txt
+           tests/options.cn
+           tests/prefix_nr.txt
+           tests/prefix_r.txt
+           tests/pthread_1.txt
+           tests/pthread_2.txt
+           tests/pthread_3.txt
+           tests/pthread_4.txt
+           tests/pthread_5.txt
+           tests/quote_in_comment.l
+           tests/quote_in_comment.txt
+           tests/quotes.txt
+           tests/reject.txt
+           tests/rescan_nr.direct.txt
+           tests/rescan_r.direct.txt
+           tests/tableopts.am
+           tests/tableopts.sh
+           tests/tableopts.txt
+           tests/testwrapper-direct.sh
+           tests/testwrapper.sh
+           tests/top.txt
+           tests/yyextra.txt
+           tools/Makefile.am
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     README.md
+           examples/Makefile.am
+           examples/fastwc/Makefile.am
+           examples/manual/Makefile.am
+           src/filter.c
+           src/libmain.c
+           src/libyywrap.c
+           src/mkskel.sh
+           src/regex.c
+           tests/Makefile.am
+           tests/alloc_extra.l
+           tests/array_nr.l
+           tests/array_r.l
+           tests/bison_nr_main.c
+           tests/bison_nr_scanner.l
+           tests/bison_yylloc_main.c
+           tests/bison_yylloc_parser.y
+           tests/bison_yylloc_scanner.l
+           tests/bison_yylval_main.c
+           tests/bison_yylval_scanner.l
+           tests/c_cxx_nr.lll
+           tests/c_cxx_r.lll
+           tests/ccl.l
+           tests/cxx_basic.ll
+           tests/cxx_multiple_scanners_1.ll
+           tests/cxx_multiple_scanners_2.ll
+           tests/cxx_multiple_scanners_main.cc
+           tests/cxx_restart.ll
+           tests/cxx_yywrap.ll
+           tests/debug_nr.l
+           tests/debug_r.l
+           tests/extended.l
+           tests/header_nr_main.c
+           tests/header_nr_scanner.l
+           tests/header_r_main.c
+           tests/header_r_scanner.l
+           tests/include_by_push.direct.l
+           tests/include_by_reentrant.direct.l
+           tests/lineno_nr.l
+           tests/lineno_r.l
+           tests/lineno_trailing.l
+           tests/mem_nr.l
+           tests/mem_r.l
+           tests/multiple_scanners_nr_1.l
+           tests/multiple_scanners_nr_2.l
+           tests/multiple_scanners_nr_main.c
+           tests/multiple_scanners_r_1.l
+           tests/multiple_scanners_r_2.l
+           tests/multiple_scanners_r_main.c
+           tests/no_bison_stub.c
+           tests/posix.l
+           tests/posixly_correct.l
+           tests/prefix_nr.l
+           tests/prefix_r.l
+           tests/pthread.l
+           tests/reject.l4
+           tests/rescan_nr.direct.l
+           tests/rescan_r.direct.l
+           tests/string_nr.l
+           tests/string_r.l
+           tests/tableopts.l4
+           tests/top.l
+           tests/top_main.c
+           tests/yyextra.l
+Copyright: __NO_COPYRIGHT__ in: README.md
+           __NO_COPYRIGHT__ in: examples/Makefile.am
+           __NO_COPYRIGHT__ in: examples/fastwc/Makefile.am
+           __NO_COPYRIGHT__ in: examples/manual/Makefile.am
+           __NO_COPYRIGHT__ in: src/filter.c
+           __NO_COPYRIGHT__ in: src/libmain.c
+           __NO_COPYRIGHT__ in: src/libyywrap.c
+           __NO_COPYRIGHT__ in: src/mkskel.sh
+           __NO_COPYRIGHT__ in: src/regex.c
+           __NO_COPYRIGHT__ in: tests/Makefile.am
+           __NO_COPYRIGHT__ in: tests/alloc_extra.l
+           __NO_COPYRIGHT__ in: tests/array_nr.l
+           __NO_COPYRIGHT__ in: tests/array_r.l
+           __NO_COPYRIGHT__ in: tests/bison_nr_main.c
+           __NO_COPYRIGHT__ in: tests/bison_nr_scanner.l
+           __NO_COPYRIGHT__ in: tests/bison_yylloc_main.c
+           __NO_COPYRIGHT__ in: tests/bison_yylloc_parser.y
+           __NO_COPYRIGHT__ in: tests/bison_yylloc_scanner.l
+           __NO_COPYRIGHT__ in: tests/bison_yylval_main.c
+           __NO_COPYRIGHT__ in: tests/bison_yylval_scanner.l
+           __NO_COPYRIGHT__ in: tests/c_cxx_nr.lll
+           __NO_COPYRIGHT__ in: tests/c_cxx_r.lll
+           __NO_COPYRIGHT__ in: tests/ccl.l
+           __NO_COPYRIGHT__ in: tests/cxx_basic.ll
+           __NO_COPYRIGHT__ in: tests/cxx_multiple_scanners_1.ll
+           __NO_COPYRIGHT__ in: tests/cxx_multiple_scanners_2.ll
+           __NO_COPYRIGHT__ in: tests/cxx_multiple_scanners_main.cc
+           __NO_COPYRIGHT__ in: tests/cxx_restart.ll
+           __NO_COPYRIGHT__ in: tests/cxx_yywrap.ll
+           __NO_COPYRIGHT__ in: tests/debug_nr.l
+           __NO_COPYRIGHT__ in: tests/debug_r.l
+           __NO_COPYRIGHT__ in: tests/extended.l
+           __NO_COPYRIGHT__ in: tests/header_nr_main.c
+           __NO_COPYRIGHT__ in: tests/header_nr_scanner.l
+           __NO_COPYRIGHT__ in: tests/header_r_main.c
+           __NO_COPYRIGHT__ in: tests/header_r_scanner.l
+           __NO_COPYRIGHT__ in: tests/include_by_push.direct.l
+           __NO_COPYRIGHT__ in: tests/include_by_reentrant.direct.l
+           __NO_COPYRIGHT__ in: tests/lineno_nr.l
+           __NO_COPYRIGHT__ in: tests/lineno_r.l
+           __NO_COPYRIGHT__ in: tests/lineno_trailing.l
+           __NO_COPYRIGHT__ in: tests/mem_nr.l
+           __NO_COPYRIGHT__ in: tests/mem_r.l
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_nr_1.l
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_nr_2.l
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_nr_main.c
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_r_1.l
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_r_2.l
+           __NO_COPYRIGHT__ in: tests/multiple_scanners_r_main.c
+           __NO_COPYRIGHT__ in: tests/no_bison_stub.c
+           __NO_COPYRIGHT__ in: tests/posix.l
+           __NO_COPYRIGHT__ in: tests/posixly_correct.l
+           __NO_COPYRIGHT__ in: tests/prefix_nr.l
+           __NO_COPYRIGHT__ in: tests/prefix_r.l
+           __NO_COPYRIGHT__ in: tests/pthread.l
+           __NO_COPYRIGHT__ in: tests/reject.l4
+           __NO_COPYRIGHT__ in: tests/rescan_nr.direct.l
+           __NO_COPYRIGHT__ in: tests/rescan_r.direct.l
+           __NO_COPYRIGHT__ in: tests/string_nr.l
+           __NO_COPYRIGHT__ in: tests/string_r.l
+           __NO_COPYRIGHT__ in: tests/tableopts.l4
+           __NO_COPYRIGHT__ in: tests/top.l
+           __NO_COPYRIGHT__ in: tests/top_main.c
+           __NO_COPYRIGHT__ in: tests/yyextra.l
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+
+Files:     Makefile.in
+           aclocal.m4
+           build-aux/compile
+           build-aux/config.guess
+           build-aux/config.rpath
+           build-aux/config.sub
+           build-aux/depcomp
+           build-aux/install-sh
+           build-aux/ltmain.sh
+           build-aux/mdate-sh
+           build-aux/missing
+           build-aux/test-driver
+           build-aux/ylwrap
+           configure
+           doc/Makefile.in
+           examples/Makefile.in
+           examples/fastwc/Makefile.in
+           examples/manual/Makefile.in
+           m4/ax_prog_cc_for_build.m4
+           m4/gettext.m4
+           m4/iconv.m4
+           m4/intlmacosx.m4
+           m4/lib-ld.m4
+           m4/lib-link.m4
+           m4/lib-prefix.m4
+           m4/libtool.m4
+           m4/ltoptions.m4
+           m4/ltsugar.m4
+           m4/ltversion.m4
+           m4/lt~obsolete.m4
+           m4/nls.m4
+           m4/po.m4
+           m4/progtest.m4
+           po/Makefile.in.in
+           src/Makefile.in
+           tests/Makefile.in
+           tools/Makefile.in
+Copyright: 1992-2015 Free Software Foundation, Inc.
+           1994 X Consortium
+           1995-2010 Ulrich Drepper <drepper@gnu.ai.mit.edu>
+           2008 Paolo Bonzini <bonzini@gnu.org>
+License:   __AUTO_PERMISSIVE__
+ Autogenerated files with permissive licenses.
+
+Files:     src/buf.c
+           src/ccl.c
+           src/flexdef.h
+           src/gen.c
+           src/main.c
+           src/misc.c
+           src/nfa.c
+           src/options.c
+           src/options.h
+           src/parse.y
+           src/scan.c
+           src/scan.l
+           src/scanflags.c
+           src/scanopt.c
+           src/scanopt.h
+           src/sym.c
+           src/tables.c
+           src/tables.h
+           src/tblcmp.c
+           src/yylex.c
+Copyright: 1990 The Regents of the University of California.
+License:   __UNKNOWN__
+ This code is derived from software contributed to Berkeley by
+ Vern Paxson.
+ .
+ The United States Government has rights in this work pursuant
+ to contract no. DE-AC03-76SF00098 between the United States
+ Department of Energy and the University of California.
+ .
+ This file is part of flex.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+
+Files:     po/da.po
+           po/de.po
+           po/eo.po
+           po/fr.po
+           po/ga.po
+           po/nl.po
+           po/pl.po
+           po/pt_BR.po
+           po/ru.po
+           po/sr.po
+           po/sv.po
+           po/vi.po
+           po/zh_CN.po
+           po/zh_TW.po
+Copyright: 2002-2014 The Flex Project (msgids)
+           2014 Free Software Foundation, Inc.
+License:   _SAME_
+ This file is distributed under the same license as the flex package.
+
+Files:     po/ko.po
+           po/ro.po
+           po/tr.po
+           tools/git2cl
+Copyright: 1996 The Flex Project Choi Jun Ho <junker@jazz.snu.ac.kr>, 1997.
+           2003 The Flex Project Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
+           2004 The Flex Project Deniz Akkus Kanca <deniz@arayan.com>, 2004.
+           2007 Luis Mondesi <lemsx1@gmail.com> * calls git directly. To use it just:
+           2007-2008 Simon Josefsson <simon@josefsson.org>
+License:   __NO_LICENSE__
+
+Files:     po/fi.po
+Copyright: 2009-2012 The Flex Project (msgids)
+License:   _SAME_
+ This file is put in the public domain.
+ This file is distributed under the same license as the flex package.
+
+Files:     src/gettext.h
+Copyright: 1995-2002 Free Software Foundation, Inc.
+License:   LGPL-2.0+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
+ USA.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ Version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+Files:     doc/flex.info-1
+Copyright: 1990-1997 The Regents of the University of California.
+           2001-2012 The Flex Project.
+License:   __HEADER___
+ This code is derived from software contributed to Berkeley by Vern
+ Paxson.
+ .
+ The United States Government has rights in this work pursuant to
+ contract no.  DE-AC03-76SF00098 between the United States Department of
+ Energy and the University of California.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the
+ distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ INFO-DIR-SECTION Programming
+ START-INFO-DIR-ENTRY
+ * flex: (flex).      Fast lexical analyzer generator (lex replacement).
+ END-INFO-DIR-ENTRY
+ .
+ File: flex.info,  Node: Top,  Next: Copyright,  Prev: (dir),  Up: (dir)
+ .
+ flex
+ ****
+ .
+ This manual describes 'flex', a tool for generating programs that
+ perform pattern-matching on text.  The manual includes both tutorial and
+ reference sections.
+ .
+ This edition of 'The flex Manual' documents 'flex' version 2.6.4.  It
+ was last updated on 6 May 2017.
+ .
+ This manual was written by Vern Paxson, Will Estes and John Millaway.
+ .
+ * Menu:
+ .
+ * Copyright::
+ * Reporting Bugs::
+ * Introduction::
+ * Simple Examples::
+ * Format::
+ * Patterns::
+ * Matching::
+ * Actions::
+ * Generated Scanner::
+ * Start Conditions::
+ * Multiple Input Buffers::
+ * EOF::
+ * Misc Macros::
+ * User Values::
+ * Yacc::
+ * Scanner Options::
+ * Performance::
+ * Cxx::
+ * Reentrant::
+ * Lex and Posix::
+ * Memory Management::
+ * Serialized Tables::
+ * Diagnostics::
+ * Limitations::
+ * Bibliography::
+ * FAQ::
+ * Appendices::
+ * Indices::
+ .
+ -- The Detailed Node Listing --
+ .
+ Format of the Input File
+ .
+ * Definitions Section::
+ * Rules Section::
+ * User Code Section::
+ * Comments in the Input::
+ .
+ Scanner Options
+ .
+ * Options for Specifying Filenames::
+ * Options Affecting Scanner Behavior::
+ * Code-Level And API Options::
+ * Options for Scanner Speed and Size::
+ * Debugging Options::
+ * Miscellaneous Options::
+ .
+ Reentrant C Scanners
+ .
+ * Reentrant Uses::
+ * Reentrant Overview::
+ * Reentrant Example::
+ * Reentrant Detail::
+ * Reentrant Functions::
+ .
+ The Reentrant API in Detail
+ .
+ * Specify Reentrant::
+ * Extra Reentrant Argument::
+ * Global Replacement::
+ * Init and Destroy Functions::
+ * Accessor Methods::
+ * Extra Data::
+
+Files:     doc/flex.info
+Copyright: 1990-1997 The Regents of the University of California.
+           2001-2012 The Flex Project.
+License:   __HEADER___
+ This code is derived from software contributed to Berkeley by Vern
+ Paxson.
+ .
+ The United States Government has rights in this work pursuant to
+ contract no.  DE-AC03-76SF00098 between the United States Department of
+ Energy and the University of California.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the
+ distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ INFO-DIR-SECTION Programming
+ START-INFO-DIR-ENTRY
+ * flex: (flex).      Fast lexical analyzer generator (lex replacement).
+ END-INFO-DIR-ENTRY
+ .
+ Indirect:
+ flex.info-1: 1622
+ flex.info-2: 318745
+ .
+ Tag Table:
+ (Indirect)
+ Node: Top1622
+ Node: Copyright9414
+ Node: Reporting Bugs10933
+ Node: Introduction11189
+ Node: Simple Examples12018
+ Node: Format15304
+ Node: Definitions Section15759
+ Ref: Definitions Section-Footnote-118017
+ Node: Rules Section18085
+ Node: User Code Section19243
+ Node: Comments in the Input19681
+ Node: Patterns21051
+ Ref: case and character ranges27883
+ Node: Matching31886
+ Node: Actions35171
+ Node: Generated Scanner44133
+ Node: Start Conditions49136
+ Node: Multiple Input Buffers59678
+ Ref: Scanning Strings66221
+ Node: EOF67850
+ Node: Misc Macros69436
+ Node: User Values72290
+ Node: Yacc74615
+ Node: Scanner Options75510
+ Node: Options for Specifying Filenames78299
+ Ref: option-header78525
+ Ref: option-outfile79239
+ Ref: option-stdout79564
+ Node: Options Affecting Scanner Behavior80547
+ Ref: option-case-insensitive80788
+ Ref: option-lex-compat81221
+ Ref: option-batch81753
+ Ref: option-interactive82272
+ Ref: option-7bit83626
+ Ref: option-8bit84930
+ Ref: option-default85342
+ Ref: option-always-interactive85406
+ Ref: option-posix86010
+ Ref: option-stack87157
+ Ref: option-stdinit87265
+ Ref: option-yylineno87744
+ Ref: option-yywrap88187
+ Node: Code-Level And API Options88454
+ Ref: option-ansi-definitions88681
+ Ref: option-ansi-prototypes88756
+ Ref: option-bison-bridge88829
+ Ref: option-bison-locations89170
+ Ref: option-noline89430
+ Ref: option-reentrant89944
+ Ref: option-c++90556
+ Ref: option-array90682
+ Ref: option-pointer90780
+ Ref: option-prefix90907
+ Ref: option-main92435
+ Ref: option-nounistd92619
+ Ref: option-yyclass93130
+ Node: Options for Scanner Speed and Size93614
+ Ref: option-align94164
+ Ref: option-ecs94666
+ Ref: option-meta-ecs95705
+ Ref: option-read96193
+ Ref: option-full98076
+ Ref: option-fast98271
+ Node: Debugging Options99195
+ Ref: option-backup99382
+ Ref: option-debug99927
+ Ref: option-perf-report100649
+ Ref: option-nodefault101275
+ Ref: option-trace101593
+ Ref: option-nowarn101884
+ Ref: option-verbose101952
+ Ref: option-warn102381
+ Node: Miscellaneous Options102600
+ Node: Performance103056
+ Node: Cxx113303
+ Node: Reentrant121395
+ Node: Reentrant Uses122129
+ Node: Reentrant Overview123691
+ Node: Reentrant Example124491
+ Node: Reentrant Detail125264
+ Node: Specify Reentrant125768
+ Node: Extra Reentrant Argument126418
+ Node: Global Replacement127670
+ Node: Init and Destroy Functions128905
+ Node: Accessor Methods131426
+ Node: Extra Data132773
+
+Files:     doc/flex.info-2
+Copyright: 1990-1997 The Regents of the University of California.
+           2001-2012 The Flex Project.
+License:   __UNKNOWN__
+ This code is derived from software contributed to Berkeley by Vern
+ Paxson.
+ .
+ The United States Government has rights in this work pursuant to
+ contract no.  DE-AC03-76SF00098 between the United States Department of
+ Energy and the University of California.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the
+ distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ INFO-DIR-SECTION Programming
+ START-INFO-DIR-ENTRY
+ * flex: (flex).      Fast lexical analyzer generator (lex replacement).
+ END-INFO-DIR-ENTRY
+ .
+ File: flex.info,  Node: Index of Functions and Macros,  Next: Index of Variables,  Prev: Concept Index,  Up: Indices
+ .
+ Index of Functions and Macros
+
+Files:     po/es.po
+Copyright: 2002 The Flex Project
+License:   __UNKNOWN__
+ Nicolás García-Pedrajas <ngarcia-pedrajas@acm.org>, 1997.
+ Gracias a Nicolás Fernández García que me ha sugerido algunas ideas.
+
+Files:     examples/manual/Makefile.examples
+Copyright: __NO_COPYRIGHT__ in: examples/manual/Makefile.examples
+License:   __UNKNOWN__
+ If you use bison, you may have to supply an alloca
+
+Files:     configure.ac
+Copyright: __NO_COPYRIGHT__ in: configure.ac
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ autoconf requirements and initialization
+
+Files:     tests/basic_r.l
+Copyright: __NO_COPYRIGHT__ in: tests/basic_r.l
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ A reentrant scanner.
+
+Files:     tests/include_by_buffer.direct.l
+Copyright: __NO_COPYRIGHT__ in: tests/include_by_buffer.direct.l
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+
+Files:     tests/quotes.l
+Copyright: __NO_COPYRIGHT__ in: tests/quotes.l
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ The point of this test is to be sure our M4 madness does not
+ interfere with user code. I particular, we are looking
+ for instances of M4 quotes, [[ and ]], in here to make it through the flex
+ machinery unscathed.
+
+Files:     src/FlexLexer.h
+Copyright: 1993 The Regents of the University of California.
+License:   __UNKNOWN__
+ This code is derived from software contributed to Berkeley by
+ Kent Williams and Tom Epperly.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ This file defines FlexLexer, an abstract class which specifies the
+ external interface provided to flex C++ lexer objects, and yyFlexLexer,
+ which defines a particular lexer class.
+ .
+ If you want to create multiple lexer classes, you use the -P flag
+ to rename each yyFlexLexer to some other xxFlexLexer.  You then
+ include <FlexLexer.h> in your other sources once per lexer class:
+ .
+ #undef yyFlexLexer
+ #define yyFlexLexer xxFlexLexer
+ #include <FlexLexer.h>
+ .
+ #undef yyFlexLexer
+ #define yyFlexLexer zzFlexLexer
+ #include <FlexLexer.h>
+ ...
+
+Files:     Makefile.am
+Copyright: __NO_COPYRIGHT__ in: Makefile.am
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ Notes on building:
+ .
+ Possible values for DEFS:
+ .
+ By default, flex generates 8-bit scanners when using table compression,
+ and 7-bit scanners when using uncompressed tables (-f or -F options).
+
+Files:     po/ca.po
+Copyright: 2002-2012 The Flex Project (msgids)
+License:   __UNKNOWN__
+ This file is distributed under the same licence as the flex package.
+ Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2006, 2008, 2012.
+
+Files:     src/dfa.c
+Copyright: 1990 The Regents of the University of California.
+License:   __UNKNOWN__
+ This code is derived from software contributed to Berkeley by
+ Vern Paxson.
+ .
+ The United States Government has rights in this work pursuant
+ to contract no. DE-AC03-76SF00098 between the United States
+ Department of Energy and the University of California.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+
+Files:     doc/flex.texi
+Copyright: __NO_COPYRIGHT__ in: doc/flex.texi
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ @enumerate
+ @item
+ Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ @item
+ Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+
+Files:     po/hr.po
+Copyright: 2012 The Flex Project (msgids)
+License:   __UNKNOWN__
+ This file is put in the public domain.
+ .
+ Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+
+Files:     tests/bison_nr_parser.y
+Copyright: __NO_COPYRIGHT__ in: tests/bison_nr_parser.y
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ How to compile:
+
+Files:     tests/bison_yylval_parser.y
+Copyright: __NO_COPYRIGHT__ in: tests/bison_yylval_parser.y
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ Accepts html-like input.
+ How to compile:
+
+Files:     src/ecs.c
+Copyright: 1990 The Regents of the University of California.
+License:   __UNKNOWN__
+ This code is derived from software contributed to Berkeley by
+ Vern Paxson.
+ .
+ The United States Government has rights in this work pursuant
+ to contract no. DE-AC03-76SF00098 between the United States
+ Department of Energy and the University of California.
+ .
+ This file is part of flex
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+
+Files:     tests/basic_nr.l
+Copyright: __NO_COPYRIGHT__ in: tests/basic_nr.l
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ TEST scanner.
+ Basic non-reentrant scanner.
+ .
+ Sample Input:
+ # this is a comment
+
+Files:     autogen.sh
+Copyright: __NO_COPYRIGHT__ in: autogen.sh
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ If you see no configure script, then run ./autogen.sh to create it
+ and procede with the "normal" build procedures.
+ .
+ use LIBTOOLIZE, if set
+
+Files:     build-aux/texinfo.tex
+Copyright: 1985-2013 Free Software Foundation, Inc.
+License:   GPL-3.0+ with unknown exception
+ This texinfo.tex file is free software: you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This texinfo.tex file is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, when this file is read by TeX when processing
+ a Texinfo source document, you may use the result without
+ restriction. This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     src/parse.c
+Copyright: 1984-2015 Free Software Foundation, Inc.
+License:   GPL-3.0+ with unknown exception *** check multiple exceptions ***
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, you may create a larger work that contains
+ part or all of the Bison parser skeleton and distribute that work
+ under terms of your choice, so long as that work isn't itself a
+ parser generator using the skeleton or a modified version thereof
+ as a parser skeleton.  Alternatively, if you modify or redistribute
+ the parser skeleton itself, you may (at your option) remove this
+ special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public
+ License without this special exception.
+ .
+ This special exception was added by the Free Software Foundation in
+ version 2.2 of Bison.
+ .
+ C LALR(1) parser skeleton written by Richard Stallman, by
+ simplifying the original so-called "semantic" parser.
+ .
+ All symbols defined below should begin with yy or YY, to avoid
+ infringing on user name space.  This should be done even for local
+ variables, as they might otherwise be expanded by user macros.
+ There are some unavoidable exceptions within include files to
+ define necessary library symbols; they are noted "INFRINGES ON
+ USER NAME SPACE" below.
+ .
+ Identify Bison output.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     src/parse.h
+Copyright: 1984-2015 Free Software Foundation, Inc.
+License:   GPL-3.0+ with unknown exception *** check multiple exceptions ***
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, you may create a larger work that contains
+ part or all of the Bison parser skeleton and distribute that work
+ under terms of your choice, so long as that work isn't itself a
+ parser generator using the skeleton or a modified version thereof
+ as a parser skeleton.  Alternatively, if you modify or redistribute
+ the parser skeleton itself, you may (at your option) remove this
+ special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public
+ License without this special exception.
+ .
+ This special exception was added by the Free Software Foundation in
+ version 2.2 of Bison.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         tests/bison_yylval.txt
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: COPYING
+ Flex carries the copyright used for BSD software, slightly modified
+ because it originated at the Lawrence Berkeley (not Livermore!) Laboratory,
+ which operates under a contract with the Department of Energy:
+ .
+ Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007 The Flex Project.
+ .
+ Copyright (c) 1990, 1997 The Regents of the University of California.
+ All rights reserved.
+ .
+ This code is derived from software contributed to Berkeley by
+ Vern Paxson.
+ .
+ The United States Government has rights in this work pursuant
+ to contract no. DE-AC03-76SF00098 between the United States
+ Department of Energy and the University of California.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ This basically says "do whatever you please with this software except
+ remove this notice or take advantage of the University's (or the flex
+ authors') name".
+ .
+ Note that the "flex.skl" scanner skeleton carries no copyright notice.
+ You are free to do whatever you please with scanners generated using flex;
+ for them, you are not even bound by the above copyright.
